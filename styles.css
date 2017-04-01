@@ -1,0 +1,88 @@
+#parent {
+    width: 414px;
+    height: 736px;
+}
+#face {
+    margin-left: 20px;
+}
+
+#olive{
+    margin: auto;
+    background-color: #AEDF39;
+    height: 475px;
+    width: 340px;
+    border-top-left-radius: 250px 325px;
+    border-top-right-radius: 250px 325px;
+    border-bottom-right-radius: 200px 275px;
+    border-bottom-left-radius: 200px 275px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 10px solid black;
+    border-right: 2px solid black;
+}
+
+#pit {
+    width: 165px;
+    height: 113px;
+    margin-left: 69px;
+    margin-top: 30px;
+    border-radius: 400px / 300px;
+    background-color: #D23641;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black
+}
+
+#eyes {
+    margin-top: 20px;
+    width:400px;
+}
+
+#eye-l {
+    display: inline-block;
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  border-radius: 100%;
+  margin-left: 41px;
+}
+#eye-r {
+    display: inline-block;
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  border-radius: 100%;
+  margin-left: 20px;
+}
+
+.inner-ring {
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 6px;
+    border-radius: 100%;
+    border: solid white 4px;
+}
+
+.inner-shine {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 55px;
+    border-radius: 100%;
+    background-color: white;
+}
+
+#mouth {
+  background-color: black;
+  margin-left: 91px;
+  margin-top: 39px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  width: 112px;
+  height: 29px;
+}
+
