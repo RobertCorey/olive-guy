@@ -21,6 +21,18 @@
     border-right: 2px solid black;
 }
 
+#olive.wobble-right{
+    transition        : 1s linear;
+    -webkit-transform : rotate(10deg);
+    transform : rotate(10deg);
+}
+
+#olive.wobble-left{
+    transition        : 1s linear;
+    -webkit-transform : rotate(-10deg);
+    transform : rotate(-10deg);
+}
+
 #pit {
     width: 165px;
     height: 113px;
